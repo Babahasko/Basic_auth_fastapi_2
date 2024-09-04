@@ -5,3 +5,4 @@ package-mode = false
 python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.112.2"}
 pydantic-settings = "^2.4.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.34"}
