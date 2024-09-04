@@ -5,4 +5,10 @@ It is a project where i`m trying to write basic auth on fastapi with architectur
 ## Ideas to realize
 1. Router
 2. Controller
-3. Middleware
+3. Middleware for Authentication check
+
+## Tasks
+1. Realize the db(want to make on mongodb)
+
+## Offical Documentation
+[RFC7617](https://www.rfc-editor.org/rfc/rfc7617.html)
