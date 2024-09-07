@@ -1,0 +1,11 @@
+services:
+  pg:
+    image: postgres
+    environment:
+      POSTGRES_DB: abstract_app_db
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5431:5432"
+    volumes:
+      - "./data/pg:/var/lib/postgresql/data"
