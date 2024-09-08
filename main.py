@@ -5,7 +5,7 @@ import uvicorn
 from dotenv import load_dotenv
 from api import api_router
 from core.config import settings
-from core.models import db_helper
+from core.models import db_helper, Base
 
 load_dotenv()
 
