@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 import uvicorn
 from dotenv import load_dotenv
-from api import api_router
+from api import router
 from core.config import settings
 from core.models import db_helper, Base
 
@@ -20,7 +20,7 @@ main_app = FastAPI(
     lifespan=lifespan,
 )
 main_app.include_router(
-    api_router,
+    router,
     prefix=settings.api.prefix,
 )
 
