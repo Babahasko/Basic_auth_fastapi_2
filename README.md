@@ -8,7 +8,7 @@ It is a project where i`m trying to write basic auth on fastapi with architectur
 3. Middleware for Authentication check
 
 ## Tasks
-1. Realize the db(want to make on mongodb)
+1. Realize the db
 
 ## Offical Documentation
 [RFC7617](https://www.rfc-editor.org/rfc/rfc7617.html)
